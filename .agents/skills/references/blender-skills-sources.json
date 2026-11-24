@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/arjun988/blender-skills",
+  "commit": "8f778d2405a214b508d4c7d80742be8e43acdd52",
+  "license": {
+    "name": "MIT",
+    "source_path": "LICENSE",
+    "output_path": ".agents/skills/references/blender-skills-LICENSE.txt",
+    "copyright": "Copyright (c) 2026 blender-skills contributors"
+  },
+  "documents": {
+    "blender-modeler": {
+      "source_paths": [
+        ".claude/skills/blender-modeler/SKILL.md",
+        ".claude/skills/blender-modeler/references/modifier-stack.md",
+        ".claude/skills/blender-modeler/references/scene-organization.md"
+      ],
+      "modifications": "Rebuilt as concise Blender modeling guidance; removed MCP workflow, unsupported fixed cleanup thresholds, unapproved delegates and hard budgets; added ResoLoop execution and ownership boundaries.",
+      "output_paths": [
+        ".agents/skills/blender-modeler/SKILL.md"
+      ]
+    },
+    "modular-environment-design.md": {
+      "source_paths": [
+        ".claude/skills/environment-artist/SKILL.md",
+        ".claude/skills/environment-artist/references/modular-kits.md"
+      ],
+      "modifications": "Extracted grid intent and corner/edge/fill/trim/opening compatibility into a standalone module-design reference; removed environment orchestration, fixed kit counts, engine instructions and hard-coded dimensions.",
+      "output_paths": [
+        ".agents/skills/references/modular-environment-design.md"
+      ]
+    }
+  }
+}
